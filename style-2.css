@@ -1,0 +1,140 @@
+
+nav{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.navi-list{
+display: flex;
+align-items: center;
+gap: 40px;
+list-style-type: none;
+font-size: 20px;
+padding: 0;
+margin-top: 80px;
+font-weight: bold;
+margin-left: 80px;
+cursor: pointer;
+}
+.navi-list li:hover{
+color: red;
+transition: .4s;
+}
+
+
+.social-icon {
+display: flex;
+list-style-type: none;
+margin-top: 80px;
+gap: 40px;
+margin-right: 80px;
+cursor: pointer;
+}
+.social-icon li :hover {
+color: red;
+transition: .4s;
+}
+
+h1 {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.first-page{
+display: flex;
+justify-content: space-between;
+}
+
+.profile-picture{ 
+display: flex;
+justify-content: right;
+padding-left: 1.2rem;
+}
+
+h5 {
+    margin-top: 20px;
+}
+.contact{
+margin-left: 50px;
+margin-top: 70px;
+color: grey;
+text-transform: uppercase;
+font-weight: 400;
+}
+
+.biography{
+    margin-left: 50px;
+    margin-top: 70px;
+    color: grey;
+    text-transform: uppercase;
+    font-weight: 400;   
+}
+
+.divider {
+margin-left: 60px;
+margin-right: 30px;
+height: 1px;
+width: 92%;
+background-color: black;
+}
+
+h2{
+    display: block;
+    margin: 0%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+    height: 300px;
+    width: 500px;
+}
+.project {
+display: flex;
+padding-left: 100px;
+padding-right: 100px;
+gap: 80px;
+}
+.title-space{
+    padding-top: 2rem;
+}
+.project-title {
+font-size: 1.875rem;
+font-weight: 400;
+text-align: center;
+}
+.background-color {
+border-radius: 200px;
+}
+.Language-Skill {
+display: flex;
+padding-left: 90px;
+padding-right: 80px;
+gap: 120px;
+}
+.icon-title{
+display: flex;
+padding-right: 80px;
+gap: 120px;
+}
+
+.address{
+    margin-top: 30px;
+    margin-left: 80px; 
+    line-height: 40px;
+     font-size: 1.5rem;
+
+}
+.address span:hover {
+color: red;
+transition: .4s;
+
+}
+
+
+
+
